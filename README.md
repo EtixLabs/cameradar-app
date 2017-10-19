@@ -1,2 +1,3 @@
-# cameradar-app
-Discovers and accesses RTSP CCTV cameras
+# Cameradar GUI
+
+## WIP

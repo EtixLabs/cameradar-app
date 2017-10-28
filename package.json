@@ -7,6 +7,7 @@
   "dependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "reason-react": "^0.2.4",
     "reason-scripts": "0.6.11"
   },
   "scripts": {
@@ -16,8 +17,8 @@
   },
   "devDependencies": {
     "bs-jest": "^0.2.0",
+    "bs-platform": "^2.0.0",
     "electron": "^1.7.9",
-    "electron-packager": "^9.1.0",
-    "reason-react": "^0.2.4"
+    "electron-packager": "^9.1.0"
   }
 }

@@ -1,16 +1,16 @@
 open Utils;
 
-requireCSS "./MainWindow.css";
+requireCSS("./MainWindow.css");
 
-let logo = requireAssetURI "./images/logo.png";
+let logo = requireAssetURI("./images/logo.png");
 
-let component = ReasonReact.statelessComponent "MainPage";
+let component = ReasonReact.statelessComponent("MainPage");
 
-let make _children => {
+let make = (_children) => {
   ...component,
-  render: fun _self =>
+  render: (_self) =>
     <div className="mainWindow">
-      <h1 className="title"> (textEl "Coming soon !") </h1>
+      <h1 className="title"> (textEl("Coming soon !")) </h1>
       <img className="logo" src=logo />
     </div>
 };

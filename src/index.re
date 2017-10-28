@@ -1,1 +1,1 @@
-ReactDOMRe.renderToElementWithId <MainWindow /> "index";
+ReactDOMRe.renderToElementWithId(<MainWindow />, "index");

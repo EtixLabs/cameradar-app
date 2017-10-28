@@ -1,7 +1,7 @@
 /* require css file for side effect only */
-external requireCSS : string => unit = "require" [@@bs.val];
+[@bs.val] external requireCSS : string => unit = "require";
 
 /* require an asset (eg. an image) and return exported string value (image URI) */
-external requireAssetURI : string => string = "require" [@@bs.val];
+[@bs.val] external requireAssetURI : string => string = "require";
 
-let textEl str => ReasonReact.stringToElement str;
+let textEl = (str) => ReasonReact.stringToElement(str);

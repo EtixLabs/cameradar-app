@@ -16,6 +16,7 @@
     "electron": "electron ."
   },
   "devDependencies": {
+    "bs-glamor": "^0.1.3",
     "bs-jest": "^0.2.0",
     "bs-platform": "^2.0.0",
     "electron": "^1.7.9",
